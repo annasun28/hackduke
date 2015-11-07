@@ -12,7 +12,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
 	bgReady = true;
 };
-bgImage.src = "4188373188_509f9ca567_o.jpg";
+bgImage.src = "static/4188373188_509f9ca567_o.jpg";
 
 // Hero image
 var heroReady = false;
@@ -20,7 +20,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "imageedit_5_5574875283.gif";
+heroImage.src = "static/imageedit_5_5574875283.gif";
 
 // Monster image
 var monsterReady = false;
@@ -28,7 +28,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "imageedit_1_6235681358.gif";
+monsterImage.src = "static/imageedit_1_6235681358.gif";
 
 // Game objects
 var hero = {
