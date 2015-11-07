@@ -12,7 +12,7 @@ var bgImage = new Image();
 bgImage.onload = function () {
 	bgReady = true;
 };
-bgImage.src = "4188373188_509f9ca567_o.jpg";
+bgImage.src = "beachfinal2.jpg";
 
 // Hero image
 var heroReady = false;
@@ -28,7 +28,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "imageedit_1_6235681358.gif";
+monsterImage.src = "imageedit_7_7291095465.gif";
 
 // Game objects
 var hero = {
@@ -100,11 +100,11 @@ var render = function () {
 	}
 
 	// Score
-	ctx.fillStyle = "rgb(0, 100, 0)";
-	ctx.font = "24px Helvetica";
+	ctx.fillStyle = "rgb(255, 255, 255)";
+	ctx.font = "28px Trebuchet MS";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("You've filled " + monstersCaught + " ice cracks!", 32, 32);
+	ctx.fillText("You've collected " + monstersCaught + " bags of trash!", 60, 40);
 };
 
 // The main game loop
