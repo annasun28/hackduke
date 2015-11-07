@@ -17,7 +17,16 @@ var bgReady = false;
 var bgImage = new Image();
 bgImage.onload = function () {
     bgReady = true;
-
 };
 
-bgImage.src = "images/grass.jpg"
+bgImage.src = "images/grass.jpg";
+
+// monster image
+
+vr monReady = false;
+var monImage = new Image();
+monImage.onload()= function(){
+    monReady = true;
+};
+
+monImage.src = ""
