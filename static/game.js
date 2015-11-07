@@ -20,4 +20,4 @@ bgImage.onload = function () {
 
 };
 
-bgImage.src =
+bgImage.src = "images/grass.jpg"
